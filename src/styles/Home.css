@@ -1,0 +1,13 @@
+.Banner {
+    background-image: url("../images/bg.jpeg");
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    width: 100%;
+    background-position: right bottom , left top;
+    background-color: rgb(20, 90, 151);
+}
+
+.Coupons{
+    /* background-color: rgb(100, 124, 124); */
+}

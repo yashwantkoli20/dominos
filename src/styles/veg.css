@@ -1,0 +1,97 @@
+.hero{
+    position:relative;
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.veg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-text {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 4px 6px black;
+}
+.hero-text h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.hero-text p{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.veg-menu{
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
+}
+
+.menu-title {
+    text-align: center;
+    color : #333;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.menu-row{
+    display: flex;
+    gap : 1.5rem;
+    justify-content: center;
+}
+
+.menu-card {
+    background-color: #fff;
+    padding : 1.5rem;
+    border-radius: 9px;
+    box-shadow: 0px 4px 8px black;
+    text-align: center;
+    transition:  transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-card:hover{
+    transform:  scale(1.05);
+    box-shadow: 0px 8px 12px black;
+}
+
+.menu-img {
+    width: 100%;
+    height: 70%;
+    border-radius: 8px;
+    margin-bottom: 1 rem;
+}
+
+.order-btn {
+    background-color: blue;
+    border: none;
+    padding : 0.5rem 1.5rem;
+    color :#fff;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+
+}
+
+.order-btn:hover{
+    background-color: #0056b3;
+}
+
+@media (max-width : 768){
+    .hero-text h1{
+        font-size: 2 rem;
+    }
+
+    .hero-text p{
+        font-size: 1 rem;
+    }
+
+    .menu-card{
+        margin-bottom: 1.5 rem ;
+    }
+}
